@@ -3,6 +3,9 @@ using UnityEngine.Events;
 
 public class PlayerMovement : MonoBehaviour
 {
+
+	public static PlayerMovement Instance;
+
 	[SerializeField] private float m_JumpForce = 400f;                          // Amount of force added when the player jumps.
 	[Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;          // Amount of maxSpeed applied to crouching movement. 1 = 100%
 	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;  // How much to smooth out the movement
@@ -29,9 +32,16 @@ public class PlayerMovement : MonoBehaviour
 
 	public BoolEvent OnCrouchEvent;
 	private bool m_wasCrouching = false;
+	public bool isCrouched;
 
 	private void Awake()
 	{
+
+		if(Instance == null)
+        {
+			Instance = this;
+        }
+
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
 
 		if (OnLandEvent == null)
@@ -39,6 +49,8 @@ public class PlayerMovement : MonoBehaviour
 
 		if (OnCrouchEvent == null)
 			OnCrouchEvent = new BoolEvent();
+
+		isCrouched = false;
 	}
 
 	private void FixedUpdate()
@@ -74,7 +86,6 @@ public class PlayerMovement : MonoBehaviour
 		}
 
 		//only control the player if grounded or airControl is turned on
-		Debug.Log("Grounded: " + m_Grounded);
 		if (m_Grounded || m_AirControl)
 		{
 
@@ -106,6 +117,8 @@ public class PlayerMovement : MonoBehaviour
 					OnCrouchEvent.Invoke(false);
 				}
 			}
+
+			isCrouched = crouch;
 
 			// Move the character by finding the target velocity
 			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
