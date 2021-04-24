@@ -5,13 +5,20 @@ using UnityEngine;
 public class PlayerInput : MonoBehaviour
 {
 
+    #region Singleton
+    public static PlayerInput Instance;
+    private void Awake()
+    {
+        if (Instance == null) Instance = this;
+    }
+    #endregion
+
     public PlayerMovement movement;
 
-
     public float moveSpeed;
-    float horizontalMove = 0;
+    public float horizontalMove = 0;
     bool jump = false;
-    bool crouch = false;
+    public bool crouch = false;
 
     // Start is called before the first frame update
     void Start()

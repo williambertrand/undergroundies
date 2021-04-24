@@ -25,7 +25,7 @@ public class Undergroundie : MonoBehaviour
     public float moveSpeed;
 
     // Movement variables
-    private readonly float reachDist = 0.2f;
+    private readonly float reachDist = 0.4f;
     [Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;  // How much to smooth out the movement
     private Vector3 m_Velocity = Vector3.zero;
     bool m_FacingRight = true;
@@ -33,9 +33,16 @@ public class Undergroundie : MonoBehaviour
     // Idle state variables
     public float idleDone;
 
+    // Attack related variables
+    public float attackRange;
+    public float lastAttack;
+    public float attackTime;
+
+
+    Animator anim;
+
+
     private Rigidbody2D m_Rigidbody2D;
-
-
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +52,7 @@ public class Undergroundie : MonoBehaviour
         state = G_State.Patrolling;
         newState = G_State.Null;
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void _handlePatrolState()
@@ -54,6 +62,8 @@ public class Undergroundie : MonoBehaviour
             //Transition to idle
             idleDone = Time.time + Random.Range(1.5f, 3.0f);
             state = G_State.Idle;
+            anim.SetFloat("move", 0);
+            anim.SetTrigger("idle");
         }
     }
 
@@ -78,6 +88,13 @@ public class Undergroundie : MonoBehaviour
     void _handleChaseState()
     {
         moveDest = PlayerMovement.Instance.transform.position;
+        if (Vector2.Distance(PlayerMovement.Instance.transform.position, transform.position) < attackRange)
+        {
+            if(Time.time > lastAttack + attackTime)
+            {
+                Attack();
+            }
+        }
     }
 
     public void SetNewState(G_State n)
@@ -114,7 +131,8 @@ public class Undergroundie : MonoBehaviour
     {
         // Move the character by finding the target velocity
         float dX = moveDest.x - transform.position.x > 0 ? moveSpeed : -1 * moveSpeed;
-        Vector3 targetVelocity = new Vector2(dX, 0.0f);
+        Vector3 targetVelocity = new Vector2(dX, m_Rigidbody2D.velocity.y);
+        anim.SetFloat("move", Mathf.Abs(dX));
         // And then smoothing it out and applying it to the character
         m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 
@@ -152,6 +170,13 @@ public class Undergroundie : MonoBehaviour
         Debug.Log("Received sense: " + t);
     }
 
+
+    
+    public void Attack()
+    {
+        PlayerLife.Instance.TakeDamage();
+        lastAttack = Time.time;
+    }
 
 
 }

@@ -32,4 +32,14 @@ public class GameManager : MonoBehaviour
     {
         
     }
+
+    public void GameOver()
+    {
+        Debug.Log("Game over!");
+        // Go back to previous checkpoint
+        if(CheckPointManager.Instance != null)
+        {
+            CheckPointManager.Instance.Reset();
+        }
+    }
 }

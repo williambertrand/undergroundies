@@ -3156,3 +3156,580 @@ System memory in use after: 226.2 MB.
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2719.
 Total: 2.923184 ms (FindLiveObjects: 0.442481 ms CreateObjectMapping: 0.111587 ms MarkObjects: 2.347990 ms  DeleteObjects: 0.019688 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 6612.371964 seconds.
+  path: Assets/Prefabs/Undergroundies
+  artifactKey: Guid(c715e4c425acc486abc5b3b748a70e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies using Guid(c715e4c425acc486abc5b3b748a70e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9179394e4e344c29cdc2c072345bbc') in 0.082812 seconds
+  Import took 0.144186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.608319 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieNormal01.prefab
+  artifactKey: Guid(c01e60eab86ea41ed884063b4b0b4c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieNormal01.prefab using Guid(c01e60eab86ea41ed884063b4b0b4c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e4af9d023f499fd76c374853f69182') in 0.224270 seconds
+  Import took 0.231068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004981 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieNormal01.prefab
+  artifactKey: Guid(c01e60eab86ea41ed884063b4b0b4c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieNormal01.prefab using Guid(c01e60eab86ea41ed884063b4b0b4c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e4af9d023f499fd76c374853f69182') in 0.016336 seconds
+  Import took 0.020285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.674469 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab
+  artifactKey: Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab using Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e13cd4f65f55d720599b12c4197059') in 0.013367 seconds
+  Import took 0.017668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025326 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab
+  artifactKey: Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab using Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e13cd4f65f55d720599b12c4197059') in 0.012902 seconds
+  Import took 0.017536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 983.963674 seconds.
+  path: Assets/Sprites/Props/log01.png
+  artifactKey: Guid(763073e551335458f9dc2ff91fb2d217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/log01.png using Guid(763073e551335458f9dc2ff91fb2d217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809606920f206af109725db5502b6a5f') in 0.052508 seconds
+  Import took 0.056956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019286 seconds.
+  path: Assets/Sprites/Props/log01.png
+  artifactKey: Guid(763073e551335458f9dc2ff91fb2d217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/log01.png using Guid(763073e551335458f9dc2ff91fb2d217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809606920f206af109725db5502b6a5f') in 0.016244 seconds
+  Import took 0.020793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003362 seconds.
+  path: Assets/Sprites/Props/stump01.png
+  artifactKey: Guid(82373a8334894444c9abcb07705c99fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/stump01.png using Guid(82373a8334894444c9abcb07705c99fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0cd160cfac59b5a2602f670972097a') in 0.013595 seconds
+  Import took 0.019138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.953446 seconds.
+  path: Assets/Scripts/Enemies/SensePlayer.cs
+  artifactKey: Guid(5a1d7a415686c47ccae757b57c86cbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemies/SensePlayer.cs using Guid(5a1d7a415686c47ccae757b57c86cbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2b54e3627541c0bd88d39b3753c656') in 0.007949 seconds
+  Import took 0.012994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.549300 seconds.
+  path: Assets/Scripts/Enemies/Undergroundie.cs
+  artifactKey: Guid(1bfc295980b774e9892048fbbe0cf1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemies/Undergroundie.cs using Guid(1bfc295980b774e9892048fbbe0cf1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1e225c1416ed4c75d3499b98c40244') in 0.002091 seconds
+  Import took 0.006711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/Scripts/Enemies/Undergroundie.cs
+  artifactKey: Guid(1bfc295980b774e9892048fbbe0cf1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemies/Undergroundie.cs using Guid(1bfc295980b774e9892048fbbe0cf1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1e225c1416ed4c75d3499b98c40244') in 0.001838 seconds
+  Import took 0.006261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.138019 seconds.
+  path: Assets/Scripts/Player/PlayerLife.cs
+  artifactKey: Guid(4b66a746ba9394955af383e00a30678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerLife.cs using Guid(4b66a746ba9394955af383e00a30678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3865f4437ae86008bbcab7d017c38270') in 0.004322 seconds
+  Import took 0.011158 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001722 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.696 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 226.5 MB.
+System memory in use after: 226.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2729.
+Total: 2.544047 ms (FindLiveObjects: 0.446766 ms CreateObjectMapping: 0.153975 ms MarkObjects: 1.914728 ms  DeleteObjects: 0.027155 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003308 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.380 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 226.7 MB.
+System memory in use after: 226.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2733.
+Total: 2.228350 ms (FindLiveObjects: 0.279808 ms CreateObjectMapping: 0.077678 ms MarkObjects: 1.855832 ms  DeleteObjects: 0.013950 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001240 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.369 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 226.9 MB.
+System memory in use after: 227.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2737.
+Total: 3.485486 ms (FindLiveObjects: 0.556486 ms CreateObjectMapping: 0.141471 ms MarkObjects: 2.767579 ms  DeleteObjects: 0.017962 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.421 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.1 MB.
+System memory in use after: 227.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2741.
+Total: 2.914963 ms (FindLiveObjects: 0.427184 ms CreateObjectMapping: 0.134205 ms MarkObjects: 2.329922 ms  DeleteObjects: 0.021559 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 520.937642 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab
+  artifactKey: Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab using Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9765efa7fe4dcedb5f9e213cfdb28cf') in 0.088072 seconds
+  Import took 0.093270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieNormal01.prefab
+  artifactKey: Guid(c01e60eab86ea41ed884063b4b0b4c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieNormal01.prefab using Guid(c01e60eab86ea41ed884063b4b0b4c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934f2fe906cd65fe9497b0f245c6bff7') in 0.017895 seconds
+  Import took 0.022897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.813158 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab
+  artifactKey: Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab using Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e6420f61e97bccfac650235712e6ae') in 0.011276 seconds
+  Import took 0.016419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018400 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab
+  artifactKey: Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab using Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e6420f61e97bccfac650235712e6ae') in 0.013287 seconds
+  Import took 0.018464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.204285 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab
+  artifactKey: Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab using Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75c00d5ca5caf9e0c5fd99e5d7fb5dd') in 0.012300 seconds
+  Import took 0.018429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006982 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab
+  artifactKey: Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab using Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75c00d5ca5caf9e0c5fd99e5d7fb5dd') in 0.015080 seconds
+  Import took 0.019408 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001333 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.258 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.5 MB.
+System memory in use after: 227.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2746.
+Total: 2.635840 ms (FindLiveObjects: 0.336080 ms CreateObjectMapping: 0.100269 ms MarkObjects: 2.176056 ms  DeleteObjects: 0.022138 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.180 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.6 MB.
+System memory in use after: 227.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2750.
+Total: 3.742469 ms (FindLiveObjects: 0.511654 ms CreateObjectMapping: 0.126461 ms MarkObjects: 3.078742 ms  DeleteObjects: 0.022911 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001392 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.642 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.9 MB.
+System memory in use after: 228.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2754.
+Total: 2.724415 ms (FindLiveObjects: 0.381718 ms CreateObjectMapping: 0.123107 ms MarkObjects: 2.196206 ms  DeleteObjects: 0.021588 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000977 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.392 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 228.1 MB.
+System memory in use after: 228.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2758.
+Total: 3.071544 ms (FindLiveObjects: 0.324882 ms CreateObjectMapping: 0.096123 ms MarkObjects: 2.616802 ms  DeleteObjects: 0.032194 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.957066 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab
+  artifactKey: Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab using Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8af3a8c2dcc0642615783e41cc26e82') in 0.103492 seconds
+  Import took 0.109164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.906398 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab
+  artifactKey: Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab using Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a43d0397386d6484d7b6807f67dd06d') in 0.018798 seconds
+  Import took 0.025082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.838496 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab
+  artifactKey: Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab using Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a3e9a3351911e612c1c6eeab45e469') in 0.013562 seconds
+  Import took 0.019322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.064254 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab
+  artifactKey: Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab using Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de230d4b0785540bbed8c12da1fc1ba4') in 0.012974 seconds
+  Import took 0.018799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.665729 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab
+  artifactKey: Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab using Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b78bc3eb9b86ade18d4c5ccaa9690e') in 0.013106 seconds
+  Import took 0.018882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.012731 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieNormal01.prefab
+  artifactKey: Guid(c01e60eab86ea41ed884063b4b0b4c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieNormal01.prefab using Guid(c01e60eab86ea41ed884063b4b0b4c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c883fa5c8304e3a4ba7c29165a80367e') in 0.012747 seconds
+  Import took 0.017281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.457221 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieNormal01.prefab
+  artifactKey: Guid(c01e60eab86ea41ed884063b4b0b4c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieNormal01.prefab using Guid(c01e60eab86ea41ed884063b4b0b4c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5576e113cc4e832a90b212b63dc947ba') in 0.015874 seconds
+  Import took 0.022340 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002124 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.344 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 228.4 MB.
+System memory in use after: 228.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2763.
+Total: 2.271692 ms (FindLiveObjects: 0.317754 ms CreateObjectMapping: 0.090382 ms MarkObjects: 1.846692 ms  DeleteObjects: 0.015713 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001417 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.350 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 228.5 MB.
+System memory in use after: 228.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2767.
+Total: 2.527247 ms (FindLiveObjects: 0.411867 ms CreateObjectMapping: 0.105269 ms MarkObjects: 1.985072 ms  DeleteObjects: 0.023657 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.592011 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieNormal01.prefab
+  artifactKey: Guid(c01e60eab86ea41ed884063b4b0b4c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieNormal01.prefab using Guid(c01e60eab86ea41ed884063b4b0b4c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92e427946b4aa45a3c580bfdf227c36') in 0.100596 seconds
+  Import took 0.105392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.152739 seconds.
+  path: Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab
+  artifactKey: Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Undergroundies/UndergroundieCrawl02.prefab using Guid(056838ab3d41d4818a44cd713fd69ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0685893be15080436624b6a0e4d8ef4e') in 0.020471 seconds
+  Import took 0.025652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1124.945244 seconds.
+  path: Assets/Scripts/Enemies/UndergroundieHanging.cs
+  artifactKey: Guid(29532ec140c804d5f8053c2fe554ab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemies/UndergroundieHanging.cs using Guid(29532ec140c804d5f8053c2fe554ab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece17b5c2d9b8b7932255d1dd923cb4d') in 0.004025 seconds
+  Import took 0.009106 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001725 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.459 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 228.9 MB.
+System memory in use after: 229.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2773.
+Total: 3.275202 ms (FindLiveObjects: 0.538298 ms CreateObjectMapping: 0.135977 ms MarkObjects: 2.576560 ms  DeleteObjects: 0.022480 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003283 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.326 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.0 MB.
+System memory in use after: 229.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2777.
+Total: 2.313930 ms (FindLiveObjects: 0.353292 ms CreateObjectMapping: 0.092810 ms MarkObjects: 1.850873 ms  DeleteObjects: 0.015961 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.096840 seconds.
+  path: Assets/Scripts/Enemies/UndergroundieHanging.cs
+  artifactKey: Guid(29532ec140c804d5f8053c2fe554ab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemies/UndergroundieHanging.cs using Guid(29532ec140c804d5f8053c2fe554ab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4b419df6341e6b77da3edcc9dc0c21') in 0.004700 seconds
+  Import took 0.009401 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001342 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.522 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.3 MB.
+System memory in use after: 229.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2781.
+Total: 3.685915 ms (FindLiveObjects: 0.584194 ms CreateObjectMapping: 0.173936 ms MarkObjects: 2.904823 ms  DeleteObjects: 0.020470 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001811 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.5 MB.
+System memory in use after: 229.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2785.
+Total: 2.490496 ms (FindLiveObjects: 0.325437 ms CreateObjectMapping: 0.073079 ms MarkObjects: 2.074216 ms  DeleteObjects: 0.016615 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001074 seconds.
+Callback registration failed. Increase kMaxCallback.
+
+Fatal Error! Callback registration failed. Increase kMaxCallback.
+
+Obtained 42 stack frames.
+#0  0x007fff20389462 in __pthread_kill
+#1  0x007fff2030a720 in abort
+#2  0x00000111a6f85e in CrashDontLaunchBugReporter()
+#3  0x0000010f68f797 in EditorMonoConsole::LogToConsoleImplementation(CppLogEntry const&)
+#4  0x0000010f68eb97 in EditorMonoConsole::LogToConsoleImplementation(DebugStringToFileData const&)
+#5  0x0000010f69052e in LogToConsoleImplementation(DebugStringToFileData const&)
+#6  0x000001114471fd in DebugStringToFilePostprocessedStacktrace(DebugStringToFileData const&)
+#7  0x00000111447ae3 in DebugStringToFile(DebugStringToFileData const&)
+#8  0x0000010d0b3fa4 in CallbackArrayBase<void (*)(AssemblyLoadFailure), void (*)(void const*, AssemblyLoadFailure)>::Register(void (*)(AssemblyLoadFailure), void (*)(void const*, AssemblyLoadFailure), void const*)
+#9  0x00000110028608 in LoadDomainAndUserAssemblies(bool)
+#10 0x0000011002affe in LoadUserAssemblies()
+#11 0x000001104c6839 in AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+#12 0x000001104cdcfa in core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_1>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_1&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+#13 0x0000011059ede0 in asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+#14 0x0000011059c0a5 in asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+#15 0x0000011059bb41 in asio::detail::task_io_service::run(std::__1::error_code&)
+#16 0x00000110595e0a in IOService::Run(bool)
+#17 0x000001104f7d9c in RunAssetImporterV2()
+#18 0x0000010f806673 in Application::InitializeProject()
+#19 0x00000111a7b1bd in -[EditorApplication applicationDidFinishLaunching:]
+#20 0x007fff204a4fec in __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+#21 0x007fff2054089b in ___CFXRegistrationPost_block_invoke
+#22 0x007fff2054080f in _CFXRegistrationPost
+#23 0x007fff20475bde in _CFXNotificationPost
+#24 0x007fff211e4abe in -[NSNotificationCenter postNotificationName:object:userInfo:]
+#25 0x007fff22cd6b2d in -[NSApplication _postDidFinishNotification]
+#26 0x007fff22cd687b in -[NSApplication _sendFinishLaunchingNotification]
+#27 0x007fff22cd3a72 in -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+#28 0x007fff22cd36c7 in -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+#29 0x007fff21210056 in -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+#30 0x007fff2120fec6 in _NSAppleEventManagerGenericHandler
+#31 0x007fff2628ded9 in _AppleEventsCheckInAppWithBlock
+#32 0x007fff2628d5f4 in _AppleEventsCheckInAppWithBlock
+#33 0x007fff26286260 in aeProcessAppleEvent
+#34 0x007fff287475a2 in AEProcessAppleEvent
+#35 0x007fff22ccde3e in _DPSNextEvent
+#36 0x007fff22ccc177 in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#37 0x007fff22cbe68a in -[NSApplication run]
+#38 0x007fff22c9296f in NSApplicationMain
+#39 0x00000111ab5f89 in EditorMain(int, char const**)
+#40 0x00000111ab61b9 in main
+#41 0x007fff203d2621 in start
