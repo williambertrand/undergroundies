@@ -29,9 +29,10 @@ public class PlayerAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PlayerInput.Instance.crouch)
+        if (PlayerInput.Instance.crouch || PlayerMovement.Instance.isCrouched)
         {
             anim.SetBool("crouch", true);
+            anim.SetFloat("move", 0);
         }
         else
         {

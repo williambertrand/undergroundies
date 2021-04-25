@@ -50,9 +50,9 @@ TagManager:
   - name: Player
     uniqueID: 1267703267
     locked: 0
-  - name: Enemies
-    uniqueID: 422186805
-    locked: 0
   - name: Hiding
     uniqueID: 2864696679
+    locked: 0
+  - name: Enemies
+    uniqueID: 422186805
     locked: 0

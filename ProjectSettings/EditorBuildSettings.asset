@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: adbcd3b39a114884096faefc90b1e33a
   - enabled: 1
-    path: Assets/Scenes/Gameplay.unity
-    guid: 48610c55c9d558f44b2e6940764809d4
+    path: Assets/Scenes/0Start.unity
+    guid: 249c9ecfefac949d6bba0abb7b8f21de
+  - enabled: 1
+    path: Assets/Scenes/1Crawler.unity
+    guid: 52ca2c2c0b32a480ca3c43e117dcfde0
+  - enabled: 1
+    path: Assets/Scenes/2TightCrouch.unity
+    guid: 7fa2571c523314ddc9f32dcdb9808774
+  - enabled: 1
+    path: Assets/Scenes/3Open.unity
+    guid: 26be109ce2075417b8306f3883288db8
   m_configObjects: {}

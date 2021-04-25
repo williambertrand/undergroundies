@@ -18,18 +18,24 @@ public class HideObject : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (PlayerMovement.Instance.isCrouched)
+        if (collision.gameObject.CompareTag("Player"))
         {
-            PlayerHiding.Instance.isHidden = true;
-        }
-        else
-        {
-            PlayerHiding.Instance.isHidden = false;
+            if (PlayerMovement.Instance.isCrouched)
+            {
+                PlayerHiding.Instance.isHidden = true;
+            }
+            else
+            {
+                PlayerHiding.Instance.isHidden = false;
+            }
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        PlayerHiding.Instance.isHidden = false;
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            PlayerHiding.Instance.isHidden = false;
+        }
     }
 }

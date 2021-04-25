@@ -16,6 +16,7 @@ public class Undergroundie : MonoBehaviour
 {
 
     public Transform patrolLoc;
+    public GameObject target;
     public Vector3 startPos;
     public Vector3 moveDest;
     public bool patrolSwitch;
@@ -48,11 +49,20 @@ public class Undergroundie : MonoBehaviour
     void Start()
     {
         startPos = transform.position;
-        moveDest = patrolLoc.position;
         state = G_State.Patrolling;
         newState = G_State.Null;
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
+        if(target != null)
+        {
+            state = G_State.Chasing;
+            moveDest = target.transform.position;
+        }
+        else if (patrolLoc != null)
+        {
+            moveDest = patrolLoc.position;
+        }
     }
 
     void _handlePatrolState()
@@ -87,7 +97,14 @@ public class Undergroundie : MonoBehaviour
 
     void _handleChaseState()
     {
-        moveDest = PlayerMovement.Instance.transform.position;
+        if(target !=null)
+        {
+            moveDest = target.transform.position;
+        }
+        else
+        {
+            moveDest = PlayerMovement.Instance.transform.position;
+        }
         if (Vector2.Distance(PlayerMovement.Instance.transform.position, transform.position) < attackRange)
         {
             if(Time.time > lastAttack + attackTime)
@@ -120,7 +137,7 @@ public class Undergroundie : MonoBehaviour
                 _handleIdleState();
                 break;
         }
-        if(newState != G_State.Null)
+        if(newState != G_State.Null && target == null)
         {
             state = newState;
             newState = G_State.Null;
